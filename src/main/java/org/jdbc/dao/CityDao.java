@@ -1,4 +1,6 @@
-package org.jdbc;
+package org.jdbc.dao;
+
+import org.jdbc.model.City;
 
 import java.util.List;
 
