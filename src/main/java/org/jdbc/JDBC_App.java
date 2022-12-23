@@ -20,11 +20,13 @@ public class JDBC_App {
         List<City> listOfCities = cityDao.findAll();
         System.out.println(listOfCities);*/
 
-        City oslo = new City("Karlstad", "KRL", "Värmland", 34562 );
-        City addedCity = cityDao.add(oslo);
-        System.out.println(addedCity);
+        City karlstad = new City("Kashmir", "IND", "Maharashtra", 3456223 );
+        cityDao.add(karlstad);
 
+       /* City addCity = new City("Mörrum", "SWE", "Blekinge",4123);
+        //City addedCity = cityDao.add(addCity);*/
 
+        //int deleteCity = cityDao.delete(addCity);
 
     }
 }
